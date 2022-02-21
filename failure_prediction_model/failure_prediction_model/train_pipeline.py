@@ -36,3 +36,7 @@ def run_training() -> None:
     # Save the trained model
     logger.warning(f"saving model version: {_version}")
     save_pipeline(pipeline_to_persist=vc_pipeline)
+
+
+if __name__ == "__main__":
+    run_training()

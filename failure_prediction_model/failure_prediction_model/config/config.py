@@ -32,9 +32,9 @@ DROP_ATTRIBUTES = ["date", "device", "attribute7"]
 
 # Train and Test features to select
 TRAIN_FEATURES = ["attribute1", "attribute2", "attribute3",
-                  "attribute4", "attribute5", "attribute8", "attribute9", "failure"]
+                  "attribute4", "attribute5", "attribute6", "attribute8", "attribute9", "failure"]
 TEST_FEATURES = ["attribute1", "attribute2", "attribute3",
-                 "attribute4", "attribute5", "attribute8", "attribute9"]
+                 "attribute4", "attribute5",  "attribute6", "attribute8", "attribute9"]
 
 # List of features to be scaled based on Standardization/Normalization
 STANDARD_SCALER_FEATURES = ["attribute2", "attribute3",
