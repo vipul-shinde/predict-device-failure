@@ -1,12 +1,12 @@
 # importing the libraries
 import logging
 
-from config import config
+from failure_prediction_model.config import config
 from failure_prediction_model import __version__ as _version
 
-from processing.features import sampling_pipeline
-from processing.data_manager import load_dataset, save_pipeline
-from pipeline import vc_pipeline
+from failure_prediction_model.processing.features import sampling_pipeline
+from failure_prediction_model.processing.data_manager import load_dataset, save_pipeline
+from failure_prediction_model.pipeline import vc_pipeline
 from sklearn.model_selection import train_test_split
 
 logger = logging.getLogger(__name__)

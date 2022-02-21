@@ -4,13 +4,13 @@ import joblib
 
 import pandas as pd
 from failure_prediction_model import __version__ as _version
-from config import config
-from processing.data_manager import load_pipeline, load_dataset
+from failure_prediction_model.config import config
+from failure_prediction_model.processing.data_manager import load_pipeline, load_dataset
 
 logger = logging.getLogger(__name__)
 
-pipeline_file_name = f"{config.PIPELINE_SAVE_FILE}{_version}"
-failure_detection_pipeline = load_pipeline(pipeline_file_name)
+pipeline_file_name = f"{config.PIPELINE_SAVE_FILE}{_version}.pkl"
+failure_detection_pipeline = load_pipeline(file_name=pipeline_file_name)
 
 
 def make_predictions(*, input_data, save_as: str) -> dict:

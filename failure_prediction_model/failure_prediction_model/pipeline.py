@@ -6,8 +6,8 @@ from sklearn.ensemble import GradientBoostingClassifier, VotingClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 
-from config import config
-from processing.features import preprocessing_pipeline
+from failure_prediction_model.config import config
+from failure_prediction_model.processing.features import preprocessing_pipeline
 
 logger = logging.getLogger(__name__)
 
