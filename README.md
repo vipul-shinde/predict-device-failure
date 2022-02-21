@@ -89,7 +89,7 @@ Use [miniconda](https://docs.conda.io/en/latest/miniconda.html) to download pyth
 pip install -r requirements.txt
 ```
 
-### PYTHONPATH
+### Setting up PYTHONPATH
 
 Set up python path so that python can look for modules in these directories.
 
@@ -115,7 +115,7 @@ python failure_prediction_model/predict.py
 
 ### Building the package
 
-Build the pacakge using setuptools and wheels for distribution.
+Build the package using setuptools and wheels for distribution.
 
 ```
 python setup.py sdist bdist_wheel
@@ -123,7 +123,7 @@ python setup.py sdist bdist_wheel
 
 ### Install the package
 
-Now are package is ready to be installed.
+Now the package is ready to be installed.
 
 ```
 pip install -e failure_prediction_model
