@@ -17,6 +17,6 @@ vc_pipeline = Pipeline([
     ("v_clf", VotingClassifier(estimators=[("gb", GradientBoostingClassifier(n_estimators=500, learning_rate=0.01)),
                                            ("knn", KNeighborsClassifier(
                                                n_neighbors=25)),
-                                           ("lr", LogisticRegression(solver="saga", max_iter=1000, class_weight="balanced"))],
+                                           ("lr", LogisticRegression(solver="saga", max_iter=2000, class_weight="balanced"))],
                                voting="soft"))
 ])
