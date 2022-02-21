@@ -1,4 +1,6 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)]()
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)]()
+[![forthebadge](https://forthebadge.com/images/badges/made-with-markdown.svg)]()
 
 <h1 align="center">Device failure detection using Machine Learning</h1>
 
