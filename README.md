@@ -2,7 +2,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)]()
 [![forthebadge](https://forthebadge.com/images/badges/made-with-markdown.svg)]()
 
-<h1 align="center">Device failure detection using Machine Learning</h1>
+<h1 align="center">Device Failure Prediction using Machine Learning</h1>
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 
 ---
 
-<p align="center"> In this project, we are trying to predict failures of devices in the future using Machine Learning. These devices are present in a remote location.</p>
+<p align="center"> In this project, we are trying to predict the failure chances of devices in the future using Machine Learning. These devices are present in a remote location.</p>
 
 ## 📝 Table of Contents
 
@@ -22,6 +22,7 @@
 - [🎯 Getting Started](#getting_started)
 - [📊 Dataset Overview](#data-overview)
 - [🎈 Usage](#usage)
+- [🌟 Support](#support)
 
 ## 🧐 About <a name = "about"></a>
 
@@ -36,28 +37,18 @@ We as researchers have to help the company predict the failure chances of such d
 ```
 
 Volume serial number is D8B2-80F9
-D:.
-├───.pytest_cache
-│   └───v
-│       └───cache
+D:
 ├───failure_prediction_model
-│   ├───.pytest_cache
-│   │   └───v
-│   │       └───cache
 │   ├───failure_prediction_model
 │   │   ├───config
-│   │   │   └───__pycache__
 │   │   ├───data
 │   │   │   ├───interim
 │   │   │   └───raw
 │   │   ├───models
 │   │   ├───outputs
 │   │   ├───processing
-│   │   │   └───__pycache__
-│   │   └───__pycache__
 │   ├───requirements
 │   └───tests
-│       └───__pycache__
 └───notebooks
 
 ```
@@ -128,5 +119,9 @@ Now the package is ready to be installed.
 ```
 pip install -e failure_prediction_model
 ```
+
+## 🌟 Support <a name="support">
+
+Please hit the ⭐button if you like this project. 😄
 
 # Thank you!
