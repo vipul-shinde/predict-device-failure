@@ -36,7 +36,6 @@ We as researchers have to help the company predict the failure chances of such d
 
 ```
 
-Volume serial number is D8B2-80F9
 D:
 ├───failure_prediction_model
 │   ├───failure_prediction_model
